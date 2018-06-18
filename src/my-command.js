@@ -1,3 +1,10 @@
+var document = require('sketch/dom').getSelectedDocument()
+
 export default function(context) {
-  context.document.showMessage("It's alive 🙌")
+
+  let selection = document.selectedLayers;
+  
+  selection.forEach(layer => layer.moveToBack())
+  context.document.showMessage("Flipped");
+  
 }

@@ -4,8 +4,9 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
+      "name": "Flip Layers Hierarchy",
       "identifier": "my-command-identifier",
+      "shortcut" : "command shift d",
       "script": "./my-command.js"
     }
   ],

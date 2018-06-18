@@ -1,5 +1,6 @@
 {
   "name": "flipper",
+  "description": "Flips hierarchy of currently selected layers, so they appear in top-to-bottom order",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
@@ -18,8 +19,15 @@
     "start": "skpm-build --watch --run",
     "postinstall": "npm run build && skpm-link"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafq/sketch-flipper"
+  },
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
   },
-  "author": "Denis Bakhmutov <kafque@gmail.com>"
+  "author": "Denis Bakhmutov <kafque@gmail.com>",
+  "dependencies": {
+    "keytar": "^4.2.1"
+  }
 }
