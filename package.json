@@ -1,7 +1,7 @@
 {
   "name": "flipper",
   "description": "Flips hierarchy of currently selected layers, so they appear in top-to-bottom order",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "sketch": ">=3.0"
   },
